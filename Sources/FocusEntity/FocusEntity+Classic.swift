@@ -6,7 +6,10 @@
 //  Copyright © 2019 Max Cobb. All rights reserved.
 //
 
+#if canImport(RealityKit)
 import RealityKit
+#endif
+
 
 /// An extension of FocusEntity holding the methods for the "classic" style.
 internal extension FocusEntity {

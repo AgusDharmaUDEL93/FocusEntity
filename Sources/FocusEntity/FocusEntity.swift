@@ -7,7 +7,9 @@
 //
 
 import Foundation
+#if canImport(RealityKit)
 import RealityKit
+#endif
 #if canImport(RealityFoundation)
 import RealityFoundation
 #endif
