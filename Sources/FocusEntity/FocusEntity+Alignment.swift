@@ -5,8 +5,9 @@
 //  Created by Max Cobb on 8/26/19.
 //  Copyright © 2019 Max Cobb. All rights reserved.
 //
-
+#if canImport(RealityKit)
 import RealityKit
+#endif
 #if canImport(ARKit)
 import ARKit
 #endif
